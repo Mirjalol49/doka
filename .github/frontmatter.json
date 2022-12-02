@@ -1,0 +1,21 @@
+{
+  "requireField": [
+    "title",
+    "authors",
+    "tags"
+  ],
+  "requireOrder": [
+    "title",
+    "description",
+    "cover",
+    "authors",
+    "contributors",
+    "editors",
+    "keywords",
+    "related",
+    "tags"
+  ],
+  "specialCheck": {
+    "related": "./related.mjs"
+  }
+}
